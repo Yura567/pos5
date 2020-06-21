@@ -1,0 +1,240 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    width: 100%;
+    margin: auto;
+}
+.header{
+    width: 100%;
+    float: left;
+    background-image: url(../img/Vector%20Smart%20Object@1X.png);
+    background-size: cover;
+    background-position: center;
+}
+.navigation{
+    width: 100%;
+    float: left;
+    color: white;
+}
+.navigation a{
+    text-decoration: none;
+    color: white;
+      font-family: 'Montserrat', sans-serif;
+    font-size: 14pt;
+    font-weight: 600;
+}
+.logo{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20pt;
+    font-weight: bold;
+    display: inline-block;
+    float: left;
+    margin-top: 50px;
+    margin-left: 10%;
+}
+.navigation ul{
+    float: right;
+    margin-top: 50px;
+    margin-right: 10%;
+}
+.navigation li{
+    display: inline-block;
+    margin-right: 43px;
+    border: 1px solid #ff000000;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.navigation li:hover{
+    border: 1px solid white;
+}
+
+.bigbox_text{
+    width: 100%;
+    float: left;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 52pt;
+    color: white;
+    margin-top: 176px;
+}
+.bigbox-textmini{
+    width: 100%;
+    float: left;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24pt;
+    color: white;
+    margin-top: 50px;
+    
+}
+.header_big_box_btn{
+    width: 100%;
+    float: left;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 200px;
+}
+
+.header_btn{
+    padding: 14px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background: #ff4e50;
+    color: white;
+    float: left;
+    text-align: center;
+    border-radius: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 14pt;
+    cursor: pointer;
+}
+.main{
+    width: 100%;
+    float: left;
+    border: 1px solid red;
+    margin: auto;
+}
+.main_zagolovok{
+    width: 100%;
+    float: left;
+    text-align: center;
+    font-size: 22pt;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    margin-top: 50px;
+}
+.main_box_reviews{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    float: left;
+    border: 1px solid green;
+}
+.main_box_reviews_minibox{
+    width: 200px;
+    margin-right: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.main_box_reviews_minibox_img{
+    width: 125px;
+    height: 125px;
+    background-image: url(../img/Layer%206@1X.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    margin: auto;
+}
+.main_box_reviews_minibox_img2{
+    width: 125px;
+    height: 125px;
+    background-image: url(../img/Layer%207@1X.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    margin: auto;
+}
+.main_box_reviews_minibox_img3{
+    width: 125px;
+    height: 125px;
+    background-image: url(../img/Layer%208@1X.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    margin: auto;
+}
+.main_box_reviews_minibox_img4{
+    width: 125px;
+    height: 125px;
+    background-image: url(../img/Layer%209@1X.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    margin: auto;
+}
+.main_box_reviews_minibox_img_miniimg{
+    padding: 10px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    background: #ff4e50;
+    display: inline-block;
+    border-radius: 50%;
+    margin-left: 70%;
+    margin-top: 88px;
+    border:3px solid white;
+}
+.main_box_reviews_minibox_img_miniimg2{
+    padding: 10px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    background:green;
+    display: inline-block;
+    border-radius: 50%;
+    margin-left: 70%;
+    margin-top: 88px;
+    border:3px solid white;
+}
+.main_box_reviews_minibox_img_miniimg3{
+    padding: 10px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    background: yellow;
+    display: inline-block;
+    border-radius: 50%;
+    margin-left: 70%;
+    margin-top: 88px;
+    border:3px solid white;
+}
+.main_box_reviews_minibox_img_miniimg4{
+    padding: 10px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    background:blue;
+    display: inline-block;
+    border-radius: 50%;
+    margin-left: 70%;
+    margin-top: 88px;
+    border:3px solid white;
+}
+.main_box_reviews_minibox_title{
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14pt;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+.main_box_reviews_minibox_texrbox{
+    width: 100%;
+    margin-top: 20px;
+    font-size: 12px;
+    color:rgba(102,102,102,255);
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+.main_btn{
+    padding: 14px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background: white;
+    border: 3px solid #ff4e50;
+    color: #ff4e50;
+    float: left;
+    text-align: center;
+    border-radius: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 14pt;
+    cursor: pointer;
+}
